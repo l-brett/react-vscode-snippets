@@ -4,6 +4,10 @@
     "description": "A collection of snippets to speed up react development",
     "version": "0.0.1",
     "publisher": "leon-brett",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/l-brett/react-vscode-snippets"
+    },
     "engines": {
         "vscode": "^1.20.0"
     },
