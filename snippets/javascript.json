@@ -79,5 +79,14 @@
       "}"
     ],
     "description": "Redux Reducer with Default State"
+  },
+  "Redux_Action": {
+    "prefix": "rxact",
+    "body": [
+      "const ${1:actionName} = (${2:params}) => ({",
+      "\ttype: '${3:actionType}',",
+      "\t${2:params}",
+      "});"
+    ]
   }
 }

@@ -3,6 +3,10 @@ All notable changes to the "react-snippets" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.3]
+
+- Added Redux Action Snippet
+
 ## [0.0.2]
 
 - Added new redux reducer snippet for const default state
