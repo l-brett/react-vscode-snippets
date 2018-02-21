@@ -39,5 +39,14 @@
       "export default ${1:functionName};"
     ],
     "description": "React stateless functional component(separate return)"
+  },
+  "React_SetState": {
+    "prefix": "react setState",
+    "body": [
+      "this.setState(prevState => ({",
+      "\t$0",
+      "}));"
+    ],
+    "description": "creates a setState call including prevState"
   }
 }
