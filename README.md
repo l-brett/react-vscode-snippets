@@ -12,15 +12,14 @@ This is a small selection of React Snippets to help speed up development of comp
 | rfc     | Functional component with inline return                     |
 | rfcr    | Functional component with separate return                   |
 | rcss    | New component setState call                                 |
-| rxre    | React Reducer with a default state and action               |
 
 ### Redux Snippets
 
 | Command | Result                                                      |
 |:--------|:------------------------------------------------------------|
-| rxre    | React Reducer with inline empty state                       |
-| rxred   | React Reducer with default state const                      |
-| rxact   | React action                                                |
+| rxre    | Reducer with inline empty state                             |
+| rxred   | Reducer with default state const                            |
+| rxact   | Redux action                                                |
 
 ## Known Issues
 
