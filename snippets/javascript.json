@@ -1,0 +1,43 @@
+{
+  "React_Component": {
+    "prefix": "react class component",
+    "body": [
+      "export default class ${1:className} extends React.component {",
+      "\t state = {",
+      "\t}",
+      "",
+      "\trender = () => (",
+      "\t\t<div>",
+      "\t\t</div>",
+      "\t)",
+      "}"
+    ],
+    "description": "React class based component"
+  },
+  "React_Stateless_Functional_Component": {
+    "prefix": "react functional component",
+    "body": [
+      "const ${1:functionName} = (props) => (",
+      "\t<div>",
+      "\t\t$0",
+      "\t</div>",
+      ");",
+      "export default ${1:functionName};"
+    ],
+    "description": "React stateless functional component"
+  },
+  "React_Stateless_Functional_Component_With_Return": {
+    "prefix": "react functional component",
+    "body": [
+      "const ${1:functionName} = (props) => {",
+      "\treturn (",
+      "\t<div>",
+      "\t\t$0",
+      "\t</div>",
+      "\t);",
+      "}",
+      "export default ${1:functionName};"
+    ],
+    "description": "React stateless functional component(separate return)"
+  }
+}

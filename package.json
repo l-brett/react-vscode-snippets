@@ -1,0 +1,21 @@
+{
+    "name": "react-snippets",
+    "displayName": "react-snippets",
+    "description": "A collection of snippets to speed up react development",
+    "version": "0.0.1",
+    "publisher": "leon-brett",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    }
+}
