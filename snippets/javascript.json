@@ -2,7 +2,7 @@
   "React_Component": {
     "prefix": "rcc",
     "body": [
-      "export default class ${1:className} extends React.component {",
+      "export default class ${1:className} extends React.Component {",
       "\tstate = {",
       "\t\t$2",
       "\t}",
