@@ -4,7 +4,7 @@ This is a small selection of React Snippets to help speed up development of comp
 
 ## Features
 
-- Component Creation Snippets
+### React Component Snippets
 
 | Command | Result                                                      |
 |:--------|:------------------------------------------------------------|
@@ -12,6 +12,12 @@ This is a small selection of React Snippets to help speed up development of comp
 | rfc     | Functional component with inline return                     |
 | rfcr    | Functional component with separate return                   |
 | rcss    | New component setState call                                 |
+| rxre    | React Reducer with a default state and action               |
+
+### Redux Snippets
+
+| Command | Result                                                      |
+|:--------|:------------------------------------------------------------|
 | rxre    | React Reducer with a default state and action               |
 
 ## Known Issues
