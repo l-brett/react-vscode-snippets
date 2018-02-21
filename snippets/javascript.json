@@ -50,5 +50,19 @@
       "}));"
     ],
     "description": "creates a setState call including prevState"
+  },
+  "Redux_Reducer": {
+    "prefix": "rxre",
+    "body": [
+      "const ${1:reducerName} = (state = {}, action) => {",
+      "\tswitch (action.type) {",
+      "\t\tcase '${2:actionType}':",
+      "\t\t\treturn ${3|{,[|}$0${4|},]|};",
+      "\t\tdefault:",
+      "\t\t\treturn state;",
+      "\t}",
+      "}"
+    ],
+    "description": "A new Redux Reducer"
   }
 }
