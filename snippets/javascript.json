@@ -43,7 +43,7 @@
     "description": "React stateless functional component(separate return)"
   },
   "React_SetState": {
-    "prefix": "css",
+    "prefix": "rcss",
     "body": [
       "this.setState(prevState => ({",
       "\t$0",
