@@ -11,7 +11,7 @@ This is a small selection of React Snippets to help speed up development of comp
 | rcc     | Class based react component with state and render           |
 | rfc     | Functional component with inline return                     |
 | rfcr    | Functional component with separate return                   |
-| rcss    | New component setState call                                 |
+| rcss    | Component setState call                                     |
 
 ### Redux Snippets
 
