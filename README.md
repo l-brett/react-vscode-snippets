@@ -18,7 +18,8 @@ This is a small selection of React Snippets to help speed up development of comp
 
 | Command | Result                                                      |
 |:--------|:------------------------------------------------------------|
-| rxre    | React Reducer with a default state and action               |
+| rxre    | React Reducer with a empty state and action                 |
+| rxred   | React Reducer with state const and action                   |
 
 ## Known Issues
 

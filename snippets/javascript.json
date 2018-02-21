@@ -64,5 +64,20 @@
       "}"
     ],
     "description": "A new Redux Reducer"
+  },
+  "Redux_Reducer_Default_State": {
+    "prefix": "rxred",
+    "body": [
+      "const ${1:reducerName}DefaultState = ${2|{,[|} ${3} ${4|},]|};",
+      "const ${1:reducerName} = (state = ${1:reducerName}DefaultState, action) => {",
+      "\tswitch (action.type) {",
+      "\t\tcase '${5:actionType}':",
+      "\t\t\treturn ${2}$0${4};",
+      "\t\tdefault:",
+      "\t\t\treturn state;",
+      "\t}",
+      "}"
+    ],
+    "description": "Redux Reducer with Default State"
   }
 }
