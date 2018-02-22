@@ -1,4 +1,11 @@
 {
+  "React_Import": {
+    "prefix": "rimp",
+    "body": [
+      "import React from 'react';"
+    ],
+    "description": "React import statement"
+  },
   "React_Component": {
     "prefix": "rcc",
     "body": [
@@ -40,7 +47,7 @@
       "}",
       "export default ${1:functionName};"
     ],
-    "description": "React stateless functional component(separate return)"
+    "description": "stateless functional component(separate return)"
   },
   "React_SetState": {
     "prefix": "rcss",
@@ -50,6 +57,13 @@
       "}));"
     ],
     "description": "creates a setState call including prevState"
+  },
+  "Redux_Import": {
+    "prefix": "rximp",
+    "body": [
+      "import { createStore, combineReducers } from 'redux';"
+    ],
+    "description": "Import createStore and combineReducers"
   },
   "Redux_Reducer": {
     "prefix": "rxre",
