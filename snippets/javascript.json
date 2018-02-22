@@ -23,6 +23,15 @@
     ],
     "description": "React class based component"
   },
+  "JS_Class_Property_Method": {
+    "prefix":"jscpm",
+    "body": [
+      "${1:methodName} = (${2:arugments}) => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Class property method"
+  },
   "React_Stateless_Functional_Component": {
     "prefix": "rfc",
     "body": [

@@ -23,6 +23,12 @@ This is a small selection of React Snippets to help speed up development of comp
 | rxred   | Reducer with default state const                            |
 | rxact   | Redux action                                                |
 
+### General Snippets
+
+| Command | Result                                                                |
+|:--------|:----------------------------------------------------------------------|
+| jscpm   | class property method ([Requires Experimental Properties](https://babeljs.io/docs/plugins/transform-class-properties/)) |
+
 ## Known Issues
 
 None

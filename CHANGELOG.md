@@ -4,6 +4,10 @@ All notable changes to the "react-snippets" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.6]
+
+- Added generic class property method snippet
+
 ## [0.0.5]
 
 - Addition of import snippets
