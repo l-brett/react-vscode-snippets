@@ -111,5 +111,13 @@
       "\t${2:params}",
       "});"
     ]
+  },
+  "Redux_Store_Connector": {
+    "prefix": "rxcnt",
+    "body": [
+      "const Connected${1:component} = connect(state => ({",
+      "\t${0}",
+      "}))(${1:component});"
+    ]
   }
 }

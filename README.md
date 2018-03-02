@@ -22,6 +22,7 @@ This is a small selection of React Snippets to help speed up development of comp
 | rxre    | Reducer with inline empty state                             |
 | rxred   | Reducer with default state const                            |
 | rxact   | Redux action                                                |
+| rxcnt   | React-Redux component connector                             |
 
 ### General Snippets
 
