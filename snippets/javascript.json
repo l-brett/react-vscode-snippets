@@ -112,12 +112,18 @@
       "});"
     ]
   },
-  "Redux_Store_Connector": {
-    "prefix": "rxcnt",
+  "Redux_React_Import": {
+    "prefix": "rrimp",
+    "body": "import { ${1|connect,Provider,connect\\, Provider|} } from 'react-redux';" 
+  },
+  "Redux_React_Store_Connector": {
+    "prefix": "rrcnt",
     "body": [
-      "const Connected${1:component} = connect(state => ({",
+      "const ${1:mapStateToProps} = state => ({",
       "\t${0}",
-      "}))(${1:component});"
+      "});",  
+      "",
+      "export default connect(${1})(${3:component});"
     ]
   }
 }

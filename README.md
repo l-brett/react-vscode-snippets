@@ -24,6 +24,14 @@ This is a small selection of React Snippets to help speed up development of comp
 | rxact   | Redux action                                                |
 | rxcnt   | React-Redux component connector                             |
 
+
+### Redux React Snippets
+
+| Command | Result                                                      |
+|:--------|:------------------------------------------------------------|
+| rrimp   | Import React-Redux                                          |
+| rrcnt   | React-Redux component connector                             |
+
 ### General Snippets
 
 | Command | Result                                                                |
