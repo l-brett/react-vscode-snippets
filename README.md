@@ -32,6 +32,12 @@ This is a small selection of React Snippets to help speed up development of comp
 | rrimp   | Import React-Redux                                          |
 | rrcnt   | React-Redux component connector                             |
 
+### Immutability Helper Snippets
+| Command | Result                                                      |
+|:--------|:------------------------------------------------------------|
+| ihimp   | Import Immutability Helper                                  |
+| ihspl   | New array splice                                            |
+
 ### General Snippets
 
 | Command | Result                                                                |
